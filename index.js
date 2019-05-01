@@ -37,5 +37,5 @@ app.post('/send-email', (req, res) => {
 res.end();
 
 const server = app.listen(port, () => {
-	console.log(`\n\n*** Server start on port ${port}***\n`);
+	console.log(`\n\n*** Server started on port ${port}***\n`);
 });
